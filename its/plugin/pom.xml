@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.sonarsource.python</groupId>
+    <artifactId>python-its</artifactId>
+    <version>3.5-SNAPSHOT</version>
+  </parent>
+
+  <modules>
+    <module>python-custom-rules-plugin</module>
+    <module>it-python-plugin-test</module>
+  </modules>
+
+  <artifactId>it-python-plugin</artifactId>
+  <packaging>pom</packaging>
+  <name>Python :: ITs :: Plugin</name>
+  <inceptionYear>2012</inceptionYear>
+  <organization>
+    <name>SonarSource and Waleri Enns</name>
+  </organization>
+
+
+</project>
