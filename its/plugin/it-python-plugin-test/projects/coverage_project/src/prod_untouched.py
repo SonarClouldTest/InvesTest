@@ -1,7 +1,7 @@
 def some_function(n):
-    for i in range(100):
+    for p in range(100):
         pass
 
-i = 0
+p = 0
 j = 1
 k = 2
